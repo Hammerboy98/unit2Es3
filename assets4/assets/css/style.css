@@ -1,0 +1,144 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  color: #742305;
+}
+header {
+  display: flex;
+}
+header .empty {
+  flex-basis: 20%;
+}
+.first {
+  display: flex;
+  justify-content: center;
+  background-color: #fef7e2;
+  border-radius: 20%;
+  flex-basis: 60%;
+}
+nav button {
+  background-color: #ffdf7e;
+}
+nav{
+    
+        display: flex;
+        flex-direction: column;
+        
+        width: 100%;
+      
+}
+nav ul {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding-left: 0;
+  
+}
+nav ul li {
+    
+        display: flex;
+        justify-content: space-evenly; 
+        width: 100%;
+        margin: 5px 0;
+      
+}
+nav ul li a:link,
+nav ul li a:visited {
+  text-decoration: none;
+}
+.styleBig {
+  width: 70%;
+  height: 100%;
+  border-radius: 25%;
+}
+.styleBig img {
+  width: 10%;
+}
+.styled {
+  border-radius: 15%;
+  width:30%;
+  height:30px;
+}
+nav ul li .small {
+    display: inline-block; 
+  }
+h1 {
+  text-align: center;
+  font-size: 2.8rem;
+}
+
+.father img {
+  position: absolute;
+  top: 0;
+  width: 65%;
+  margin-left: 60px;
+}
+section div {
+  background-color: #fef7e2;
+  width: 70%;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 15%;
+  text-align: center;
+  margin-left: 70px;
+  margin-bottom: 20px;
+}
+.father {
+  position: relative;
+}
+.father span {
+  position: absolute;
+  right: 5px;
+  bottom: 50px;
+  margin-right: 25px;
+}
+.father h4 {
+  position: absolute;
+  left: 5px;
+  bottom: 40px;
+  margin-left: 30px;
+}
+.father p {
+  position: absolute;
+  left: 5px;
+  bottom: 30px;
+  margin-left: 30px;
+}
+.father button {
+  position: absolute;
+  bottom: 0px;
+}
+section div button {
+  background-color: #ffdf7e;
+  text-decoration: none;
+  width: 25%;
+  margin-left: 130px;
+  margin-bottom: 20px;
+}
+h2 {
+  text-align: center;
+}
+h3 {
+  text-align: center;
+}
+p {
+  text-align: center;
+}
+footer div {
+  background-color: #ffdf7e;
+  margin: 0px 15px 0px 15px;
+  border-radius: 10%;
+}
+.fine img {
+  width: 75%;
+  margin-left: 56px;
+}
